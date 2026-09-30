@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chill Donation</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b1020;
+            color: white;
+            min-height: 100vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 7%;
+            background: #11182d;
+            border-bottom: 1px solid #26304d;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            color: #6ea8ff;
+        }
+
+        .hero {
+            min-height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .hero h1 {
+            font-size: 65px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #5d9cff;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #b9c2d8;
+            max-width: 650px;
+            margin-bottom: 35px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 16px 35px;
+            background: #5d9cff;
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.2s;
+        }
+
+        .button:hover {
+            transform: scale(1.05);
+        }
+
+        section {
+            padding: 70px 7%;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            color: #b9c2d8;
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .card {
+            width: 280px;
+            padding: 30px;
+            background: #151d35;
+            border: 1px solid #273352;
+            border-radius: 18px;
+        }
+
+        .card h3 {
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            font-size: 15px;
+        }
+
+        footer {
+            padding: 30px;
+            text-align: center;
+            background: #11182d;
+            color: #8994ae;
+        }
+
+        @media (max-width: 700px) {
+            .hero h1 {
+                font-size: 45px;
+            }
+
+            nav {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🎮 Chill Donation</div>
+
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#jeu">Le jeu</a>
+        <a href="#equipe">Équipe</a>
+    </nav>
+</header>
+
+<section class="hero" id="accueil">
+    <h1>Bienvenue sur <span>Chill Donation</span></h1>
+
+    <p>
+        Viens discuter, rencontrer d'autres joueurs et soutenir
+        les créateurs grâce aux donations !
+    </p>
+
+    <a class="button"
+       href="https://www.roblox.com/share?code=5e609b3f3d33ee488691b9791af807c4&type=ExperienceDetails&stamp=1790758091729"
+       target="_blank">
+        🎮 JOUER À CHILL DONATION
+    </a>
+</section>
+
+<section id="jeu">
+    <h2>💰 À propos du jeu</h2>
+
+    <p>
+        Chill Donation est un jeu Roblox créé pour passer un bon moment,
+        discuter avec la communauté et soutenir les autres joueurs.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>💸 Donations</h3>
+            <p>
+                Soutiens les autres joueurs grâce aux stands de donation.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🎮 Chill</h3>
+            <p>
+                Profite d'un espace tranquille pour discuter et t'amuser.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🏆 Communauté</h3>
+            <p>
+                Rencontre de nouveaux joueurs et participe à la communauté.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="equipe">
+    <h2>👑 L'équipe</h2>
+
+    <p>
+        Chill Donation est développé avec passion pour proposer
+        une expérience agréable à toute la communauté Roblox.
+    </p>
+</section>
+
+<footer>
+    © 2026 Chill Donation — Tous droits réservés.
+</footer>
+
+</body>
+</html>
